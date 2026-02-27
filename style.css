@@ -43,10 +43,12 @@ body {
 
 .navbar {
   
-  position: relative;
+  position: sticky;
+  top:0;
+  background: rgb(17, 16, 16);
   width: 100%;
   overflow: visible;
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .nav-bar {
@@ -1608,3 +1610,4 @@ h4 {
     margin-top: 20px;
   }
 }
+
